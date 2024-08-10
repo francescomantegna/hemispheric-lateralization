@@ -3,4 +3,4 @@ Source code for "Time-resolved hemispheric lateralization of audiomotor connecti
 
 # DOI
 
-DOI: 10.5281/zenodo.13292070 
+[![DOI](https://zenodo.org/badge/13292070.svg)](https://zenodo.org/badge/latestdoi/13292070)
