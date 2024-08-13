@@ -3,22 +3,30 @@ import numpy as np
 import matplotlib.pyplot as plt
 plt.ion()
 
-task_name = 'covert'
+task_name = 'covert' # 'viewing' # 
 
 times = np.arange(0,0.801,0.004)
 n_times = len(times)
 
+# load behavioral data
+
 onsets = np.load('data/speechonsets.npy', allow_pickle=True)
 medons = [np.median(onsets[ii]) for ii in range(len(onsets))]
+
+# load neural data
 
 data = np.load('data/wpli_%s.npy' % task_name, allow_pickle=True)
 n_subj = data.shape[0]
 n_labels = data.shape[1]
 
+# sigmoidal normalization
+
 data_norm = np.zeros_like(data)
 for ii in range(n_subj):
     for jj in range(n_labels):
         data_norm[ii,jj,:] = np.abs(1.0/(1.0+np.exp((data[ii,jj,:]-np.mean(data[ii,jj,:]))/np.std(data[ii,jj,:])))-1)
+
+# lateralization index
 
 lat_idx = np.zeros((n_subj, n_times))
 lat_left = np.zeros((n_subj, n_times))
@@ -39,6 +47,8 @@ sem_left = (lat_left.std(0)) / np.sqrt(n_subj)
 
 avg_right = lat_right.mean(0)
 sem_right = (lat_right.std(0)) / np.sqrt(n_subj)
+
+# visualization
 
 fig, axs = plt.subplots(nrows=1, ncols=3, figsize=(12, 4))
 
