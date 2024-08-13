@@ -7,10 +7,9 @@ This repository contains the source code for "Time-resolved hemispheric laterali
 
 # Description
 
-<p align="justify">
-* "onsets_plot.py" generates Figure 1. We parameterize participants’ speech latencies distribution using a Gamma probability density function which adequately captures the basic features of the distribution (i.e., asymmetrical with a long right tail, and leftward skew). The Gamma function is based on two parameters: a shape (𝛼) and a scale (𝜎) parameter. The shape parameter represents the skewness of the distribution and the scale parameter represents the width of the distribution.
-* "latidx_plot.py" generates Figure 5. Functional connectivity results obtained for the alpha band (8-12 Hz) and for the connection between premotor and auditory ROIs. We measured the Lateralization Index (LI) by computing the normalized difference between phase shifts in different hemispheres for every time point in the trial. A negative lateralization index value reflects higher probability of phase shifts between the ROIs in the left hemisphere, a positive lateralization index in the right.
-</p>
+<p align="justify"> * "onsets_plot.py" generates Figure 1. We parameterize participants’ speech latencies distribution using a Gamma probability density function which adequately captures the basic features of the distribution (i.e., asymmetrical with a long right tail, and leftward skew). The Gamma function is based on two parameters: a shape (𝛼) and a scale (𝜎) parameter. The shape parameter represents the skewness of the distribution and the scale parameter represents the width of the distribution. </p>
+<p align="justify"> * "latidx_plot.py" generates Figure 5. Functional connectivity results obtained for the alpha band (8-12 Hz) and for the connection between premotor and auditory ROIs. We measured the Lateralization Index (LI) by computing the normalized difference between phase shifts in different hemispheres for every time point in the trial. A negative lateralization index value reflects higher probability of phase shifts between the ROIs in the left hemisphere, a positive lateralization index in the right. </p>
+
 
 # Data & code availability
 
