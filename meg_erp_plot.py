@@ -6,15 +6,12 @@ plt.ion()
 times = np.arange(0,1.001,0.001)
 n_times = len(times)
 
-# load behavioral data
-
-onsets = np.load('data/speechonsets.npy', allow_pickle=True)
-medons = [np.median(onsets[ii]) for ii in range(len(onsets))]
-
 # load neural data
 
-data_covert = np.load('data/meg_covert_erp.npy', allow_pickle=True)
-data_viewing = np.load('data/meg_viewing_erp.npy', allow_pickle=True)
+# data_covert = np.load('data/meg_covert_erp.npy', allow_pickle=True)
+# data_viewing = np.load('data/meg_viewing_erp.npy', allow_pickle=True)
+data_covert = np.load('meg_covert_erp.npy', allow_pickle=True)
+data_viewing = np.load('meg_viewing_erp.npy', allow_pickle=True)
 n_subj = data_covert.shape[0]
 n_labels = data_covert.shape[1]
 assert n_times == data_covert.shape[2]
