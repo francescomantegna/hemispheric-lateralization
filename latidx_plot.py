@@ -108,11 +108,9 @@ xsaft = list()
 for ii in range(len(lat_idx[:,102:160].mean(1))):
     xsaft.append(np.random.normal(2, 0.1))
 xs = np.array([xsbef,xsaft]).T
-ms = list()
 for ii in range(len(lat_idx[:,50:102].mean(1))):
     axs[2].scatter(xs[ii,0],lat_idx[ii,50:102].mean(),40,'b',alpha=0.4)
     axs[2].plot(np.array([xs[ii,0],xs[ii,1]]),np.array([lat_idx[ii,50:102].mean(),lat_idx[ii,102:160].mean()]),color='gray',lw=1,alpha=0.5)
-    ms.append(lat_idx[ii,102:160].mean()-lat_idx[ii,50:102].mean())
 for ii in range(len(lat_idx[:,102:160].mean(1))):
     axs[2].scatter(xs[ii,1],lat_idx[ii,102:160].mean(),40,'r',alpha=0.4)
 
