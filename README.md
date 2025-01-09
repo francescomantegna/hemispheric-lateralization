@@ -1,5 +1,5 @@
 # hemispheric-lateralization
-This repository contains the source code for "Time-resolved hemispheric lateralization of audiomotor connectivity during covert speech production" (Mantegna et al.)
+This repository contains the source code for "Time-resolved hemispheric lateralization of audiomotor connectivity during covert speech production" (Mantegna, Orpella, Poeppel)
 
 # Abstract
 
@@ -16,6 +16,10 @@ This repository contains the source code for "Time-resolved hemispheric laterali
 # Data & code availability
 
 <p align="justify"> This repository contains only a portion of the full dataset, and the provided code is meant to replicate the main figures only. For access to the full dataset, please contact the author (Francesco Mantegna, fmantegna93@gmail.com). </p>
+
+# Citation
+
+<p align="justify"> If you use the repository please cite the paper: Mantegna, F., Orpella, J., & Poeppel, D. (2025). Time-resolved hemispheric lateralization of audiomotor functional connectivity during covert speech production. Cell Reports, 44(1). (link: https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01488-8) </p>
 
 # DOI
 
