@@ -19,7 +19,7 @@ This repository contains the source code for "Time-resolved hemispheric laterali
 
 # Citation
 
-<p align="justify"> If you use the repository please cite the paper: Mantegna, F., Orpella, J., & Poeppel, D. (2025). Time-resolved hemispheric lateralization of audiomotor functional connectivity during covert speech production. Cell Reports, 44(1). (link: https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01488-8) </p>
+<p align="justify"> If you use this repository please cite the paper: Mantegna, F., Orpella, J., & Poeppel, D. (2025). Time-resolved hemispheric lateralization of audiomotor functional connectivity during covert speech production. Cell Reports, 44(1). (link: https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01488-8) </p>
 
 # DOI
 
