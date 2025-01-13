@@ -14,7 +14,7 @@ This repository contains the source code for "Time-resolved hemispheric laterali
 
 # Data & code availability
 
-<p align="justify"> This repository contains only a portion of the full dataset, and the provided code is meant to replicate the main figures only. For access to the full dataset, please contact the author (Francesco Mantegna, fmantegna93@gmail.com). </p>
+<p align="justify"> This repository contains only a portion of the full dataset, and the provided code is meant to replicate the main figures only. For access to the full dataset, please contact the corresponding author (Francesco Mantegna, fmantegna93@gmail.com). </p>
 
 # Citation
 
